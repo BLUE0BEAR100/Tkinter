@@ -7,7 +7,7 @@ from tkinter import ttk, messagebox
 class RestaurantOrderManagement:
     def __init__(self,root):
         self.root=root #the main window of the app
-        self.root.tittle(
+        self.root.title(
             "Restaurant Management App") #Set the Tittle of the window
         
         #A dictionary to store the menu items and their prices
@@ -15,7 +15,6 @@ class RestaurantOrderManagement:
             "FRIES MEAL": 2,
             "LAUNCH MEAL": 2,
             "BURDER MEAL": 3,
-            "KIDS MEAL": 2.5,
             "PIZZA MEAL": 4,
             "DRINKS" : 1.7,
         }
